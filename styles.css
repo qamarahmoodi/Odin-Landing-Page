@@ -139,3 +139,69 @@ body{
 
 /* information container done */
 
+.quote-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #414a56;   
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* quote section completed */
+
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.signup-section{
+    background-color: #3b82f6;
+    border-radius: 5px;
+    display: flex;
+    color: aliceblue;
+    gap: 100px;
+    padding: 20px 70px;
+    flex-shrink: 0;
+}
+
+.signup-section-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button button{
+    color: aliceblue;
+    background-color: inherit;
+    border: 2px solid aliceblue;
+    border-radius: 8px;
+    padding: 4px 22px;
+    font: inherit;
+}
+
+.signup-section-content-text{   
+    color: #98b9ef;
+    font-size: 14px;
+}
+
+/* signup-container done */
+
