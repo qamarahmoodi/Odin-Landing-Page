@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 0 90px;
+
+    gap: 70px;
+    
+}
+
+.hero-container ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hero-container a{
+    text-decoration: none;
+    color: rgb(153, 155, 157);
+    font-size: 18px;
+}
+
+.header{
+    color: aliceblue;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hero-links{
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 70px;
+}
+
+.hero-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-right-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content-title,.hero-content-text{
+    color: aliceblue;
+    margin: 0;
+}
+
+.hero-content-title{
+    font-size: 38px;
+
+}
+
+img{
+    height: 150px;
+    width: 300px;
+}
+
+.hero-button{
+    background-color: #3b82f6;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium';
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+    align-self: baseline;
+}
+
+/* top container done */
+
