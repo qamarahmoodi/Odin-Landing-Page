@@ -7,6 +7,7 @@ body{
     flex-direction: column;
 }
 
+/* top container */
 .hero-container{
     display: flex;
     flex-direction: column;
@@ -42,13 +43,14 @@ body{
 .hero-links{
     display: flex;
     gap: 16px;
+
+    flex-shrink: 0;
 }
 
 .hero-content{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: 50px;
 
     margin-bottom: 70px;
 }
@@ -56,13 +58,20 @@ body{
 .hero-left-content{
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     gap: 10px;
+
+    height: 200px;
+    width: 400px;
 }
 
 .hero-right-content{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 200px;
+    width: 400px;
 }
 
 .hero-content-title,.hero-content-text{
@@ -75,9 +84,9 @@ body{
 
 }
 
-img{
-    height: 150px;
-    width: 300px;
+.hero-right-content img{
+    height: 200px;
+    width: 400px;
 }
 
 .hero-button{
@@ -85,10 +94,48 @@ img{
     color: aliceblue;
     font-family: 'Franklin Gothic Medium';
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border: none;
     align-self: baseline;
 }
 
-/* top container done */
+/* top container edited and done */
+
+.info-container{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.info-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.info-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.info-main{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.info-main img{
+    border: 3.5px solid #3b82f6;
+    border-radius: 10px;
+    height: 130px;
+    width: 140px;
+}
+
+/* information container done */
 
