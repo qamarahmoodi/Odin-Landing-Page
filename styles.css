@@ -5,6 +5,8 @@ body{
     
     display: flex;
     flex-direction: column;
+
+    height: 100vh;
 }
 
 /* top container */
@@ -146,6 +148,8 @@ body{
     align-items: center;
     background-color: #e5e7eb;
 
+    padding: 60px;
+    min-height: 200px;
 }
 
 .quote{
@@ -165,7 +169,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
+    padding: 60px;
+    min-height: 100px;
 }
 
 .signup-section{
@@ -205,3 +211,12 @@ body{
 
 /* signup-container done */
 
+.footer{
+    background-color: #1f2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
