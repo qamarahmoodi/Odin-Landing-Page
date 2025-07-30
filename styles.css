@@ -90,11 +90,11 @@ body{
     height: 200px;
     width: 400px;
 
-    background-color: #414a56;
+    /* background-color: #414a56;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: aliceblue; */
 }
 
 .hero-button{
@@ -143,6 +143,9 @@ body{
     border-radius: 10px;
     height: 130px;
     width: 140px;
+
+    object-fit: cover;
+
 }
 
 /* information container done */
